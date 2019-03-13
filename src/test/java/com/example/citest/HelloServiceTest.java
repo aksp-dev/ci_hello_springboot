@@ -17,6 +17,6 @@ public class HelloServiceTest {
 
     @Test
     public void testSayHello(){
-        assertThat(helloService.sayHello()).contains("Hello World");
+        assertThat(helloService.sayHello()).contains("Hello World!");
     }
 }
