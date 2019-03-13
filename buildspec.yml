@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+  build:
+    commands:
+      - mvn test
+      - mvn clean package
+  artifacts:
+    files:
+      - target/citest-0.0.1-SNAPSHOT.jar
