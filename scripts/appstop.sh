@@ -1,2 +1,3 @@
 #!/bin/sh
-echo 'stop test'
+sudo service citest stop
+
