@@ -10,6 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>citest</artifactId>
+
     <version>0.0.1-SNAPSHOT</version>
     <name>citest</name>
     <description>Demo project for Spring Boot</description>
@@ -36,6 +37,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <executable>true</executable>
+                </configuration>
             </plugin>
         </plugins>
     </build>
