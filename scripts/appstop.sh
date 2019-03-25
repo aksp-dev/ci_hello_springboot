@@ -1,2 +1,2 @@
 #!/bin/sh
-echo 'stop test'
+echo 'stop test!'
