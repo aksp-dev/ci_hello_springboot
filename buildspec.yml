@@ -11,4 +11,4 @@ artifacts:
   files:
     - target/citest-0.0.1-SNAPSHOT.jar
     - appspec.yml
-    - scripts/*.sh
+    - scripts/*
